@@ -1,0 +1,13 @@
+{% for post in latest_posts %}
+    <ul class="list-unstyled widget-list">
+        <li class="media widget-post align-items-center">
+            <a href="{{post.get_absolute_url}}">
+                <img loading="lazy" class="mr-3" src="{{ post.image.url }}">
+            </a>
+            <div class="media-body">
+                <h5 class="h6 mb-0"><a href="{{post.get_absolute_url}}">{{post.title}}</a></h5>
+                <small>{{post.publish}}</small>
+            </div>
+        </li>
+    </ul>
+{%endfor%}

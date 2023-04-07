@@ -1,0 +1,54 @@
+{% extends "blog/base.html" %}
+{% load blog_tags %}
+{% block title %}Search{%endblock %}
+{% block content%}
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 mb-5 mb-lg-0">
+            {% if query%}
+            <h1>Posts containing "{{query}}"</h1>
+            <h3>
+                {% with results.count as total_results %} Found {{total_results}}
+                result{{total_results|pluralize}} {% endwith %}
+            </h3>
+            {% for post in results%}
+                <article class="row mb-5">
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <div class="post-slider slider-sm">
+                            <img loading="lazy" src="{{ post.image.url }}" class="img-fluid" alt="post-thumb"
+                                style="height:200px; object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <h3 class="h5"><a class="post-title" href="{{post.get_absolute_url}}">{{post.title}}</a></h3>
+                        <ul class="list-inline post-meta mb-2">
+                            <li class="list-inline-item"><i class="ti-user mr-2"></i><a href="javascript:void(0);">{{post.author}}</a>
+                            </li>
+                            <li class="list-inline-item">Date : {{post.publish}}</li>
+                            <li class="list-inline-item">Tags :
+                                {% for tag in post.tags.all %}
+                                <a href="{% url 'blog:post_list_by_tag' tag.slug %}" class="ml-1">{{tag.name}}</a>{%if notforloop.last %} ,{%endif%}
+                                {%endfor%}
+                            </li>
+                        </ul>
+                        <p>{{ post.body|markdown|truncatewords:30}}</p>
+                        <a href="{{post.get_absolute_url}}" class="btn btn-outline-primary">Continue Reading</a>
+                    </div>
+                </article>
+            {%empty%}
+            <p>There are no results for your query.</p>
+            {% endfor %}
+            <p><a href="{% url 'blog:post_search' %}">Search again</a></p>
+            {% else %}
+            <h1>Search for posts</h1>
+            <form method="get">
+                {{form.as_p}}
+                <input type="submit" value="Search" />
+            </form>
+            {%endif%}   
+        </div>
+    </div>
+</div>
+
+{%endblock%}

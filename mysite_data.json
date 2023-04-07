@@ -1,0 +1,3400 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-03-16T09:58:29.613Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Python",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-03-16T10:18:32.840Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Ielts full course",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-03-17T11:27:38.086Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Python    mkkkn",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-03-17T11:29:31.880Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Ielts full course",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-03-17T11:29:41.304Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "One more post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-03-17T11:35:24.494Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Python",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-03-20T06:07:57.467Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "New title",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\", \"Publish\", \"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-03-21T08:27:50.605Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-03-21T10:47:33.083Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Ielts full course",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-03-21T10:55:17.439Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Chat GPT",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-03-27T06:21:40.632Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Chat GPT",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-03-27T06:21:53.681Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Python",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-03-27T06:22:30.635Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Python",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-03-27T09:44:02.035Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Markdown post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-03-27T09:45:30.454Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Markdown post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-03-27T11:33:20.905Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "New title",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\", \"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-03-27T11:34:18.377Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "http://127.0.0.1:8000/blog",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-03-29T06:27:50.074Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "{'bozo': False, 'entries': [{'title': 'Shortly before Supreme Court hearing, Mohammed Faizal’s membership to Lok Sabha restored - The Indian Express', 'title_detail': {'type': 'text/plain', 'language'",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-03-29T06:27:50.088Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "{'title': 'Karnataka Election Dates To Be Announced By Poll Body At 11.30 am - NDTV', 'title_detail': {'type': 'text/plain', 'language': None, 'base': 'https://news.google.com/rss?hl=en-IN&gl=IN&ceid=",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-03-29T06:30:22.036Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "Karnataka Election Dates To Be Announced By Poll Body At 11.30 am - NDTV",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-03-29T06:30:22.055Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "Karnataka Election Dates To Be Announced By Poll Body At 11.30 am - NDTV",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.622Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "81",
+    "object_repr": "India develops mathematical model for estimation of TB burden cases, first country to do so - ANI News",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.636Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "80",
+    "object_repr": "Hyderabad-based IIL get DCGI nod for Measles-Rubella vaccine - The Siasat Daily",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.648Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "79",
+    "object_repr": "Ree Drummond ACV Keto Gummies Review - Shark Tank Weight Loss Gummies Scam Or Trisha Yearwood Keto Gummies Fake & Shocking Results? - mid-day.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.659Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "78",
+    "object_repr": "Unusual symptoms of diabetes that can help you identify the condition early - Times of India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.668Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "77",
+    "object_repr": "NASA Astronomy Picture of the Day 28 March 2023: Extremely Rare Green Flash Sunset - HT Tech",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.676Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "76",
+    "object_repr": "No, NASA’s Artemis spacesuits won’t be black - The Indian Express",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.683Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "75",
+    "object_repr": "Five planets aligning in the sky this week - CBS News",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.691Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "74",
+    "object_repr": "Privately-built Japanese moon lander sends beautiful image from lunar orbit - The Indian Express",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.705Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "73",
+    "object_repr": "India too good for Kyrgyz Republic; win Hero Tri-Nation Tournament | Football News - Indiatimes.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.717Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "72",
+    "object_repr": "Recent Match Report - West Indies vs South Africa 3rd T20I 2022/23 - ESPNcricinfo",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.725Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "71",
+    "object_repr": "Argentina vs. Curacao - Football Match Report - March 29, 2023 - ESPN India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.733Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "70",
+    "object_repr": "On Grooming Indian Cricket Team Captain To Follow Rohit Sharma, Sourav Ganguly's Big Hint - NDTV Sports",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.741Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "69",
+    "object_repr": "Pics: At Tania Shroff's Birthday Party - Suhana-Aryan Khan, Agastya Nanda, Shanaya-Khushi Kapoor And Others - NDTV Movies",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.754Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "68",
+    "object_repr": "Why Jr NTR Did Not Attend RRR Co-star Ram Charan's Birthday Bash; Here's What We Know - News18",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.767Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "67",
+    "object_repr": "Priyanka's manager in US was told by Bollywood people 'you're wasting your time' - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.780Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "66",
+    "object_repr": "Parineeti Chopra reacts to wedding rumours with AAP leader Raghav Chadha, 'Hasee Toh Phasee' actress BLUSHES when asked about the news. Watch IT - Indiatimes.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.790Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "65",
+    "object_repr": "Apple rolls out iOS 16.4 with notifications for web apps, voice call isolation and 21 new emoji - GSMArena.com news - GSMArena.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.800Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "64",
+    "object_repr": "Microsoft launches AI tool Security Copilot with OpenAI’s GPT-4 for cybersecurity - BusinessLine",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.809Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "63",
+    "object_repr": "Garena Free Fire MAX Redeem Codes for March 29, 2023: Cool weapon crates and diamond vouchers - HT Tech",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.819Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "62",
+    "object_repr": "Geek Review: Sony Bravia X95K Mini LED TV - Geek Culture",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.829Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "61",
+    "object_repr": "Contagion risks loom over 2 Adani companies: Fitch - Economic Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.836Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "60",
+    "object_repr": "Hindustan Zinc shares trade ex-dividend today on record date; stock falls | Mint - Mint",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.845Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "59",
+    "object_repr": "Big change in UPI payment charges from April 1| Know THIS before making digital payments via Google Pay, PayTM - Times Now",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.852Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "58",
+    "object_repr": "Adani Group shares trade mixed; 3 counters hit 5% lower circuit - The Economic Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.862Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "57",
+    "object_repr": "Laid-off Indian techies in US can continue to stay beyond the H1-B time limit. Here's how - Moneycontrol",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.869Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "56",
+    "object_repr": "\"Dangerous\": Biden Expresses Concern Over Putin's Plan To Deploy Nukes In Belarus - NDTV",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.882Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "55",
+    "object_repr": "India to host meeting of security advisers from Shanghai Cooperation Organisation countries - The Hindu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.893Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "54",
+    "object_repr": "Israel's Netanyahu Hits Back At Biden After His Remark On Judicial Reforms - NDTV",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.903Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "53",
+    "object_repr": "India Clocks 2,151 Covid Cases In Last 24 Hours, Highest In 5 Months - NDTV",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.911Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "52",
+    "object_repr": "Rahul Gandhi's Disqualification Proves the Law Has Fallen Into the Wrong Hands - The Wire",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.920Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "51",
+    "object_repr": "Bihar Board 10th Result 2023 Live: BSEB Matric result today? See updates - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.927Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "50",
+    "object_repr": "Video: Congress' DK Shivakumar Showers Rs 500 Notes In Karnataka Roadshow - NDTV",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.935Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "49",
+    "object_repr": "Body cam video shows how US cops killed school attacker - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.944Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "48",
+    "object_repr": "Congress mulls over no-confidence notice against Om Birla, reluctance of some Opposition parties gives it pause - The Indian Express",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.952Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "47",
+    "object_repr": "'Will attend…': Sanjay Raut after warning to Rahul Gandhi on Savarkar quip - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.960Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "46",
+    "object_repr": "Cops Search Punjab Village After Abandoned Car Sparks Amritpal Singh Buzz - NDTV",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.969Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "45",
+    "object_repr": "Karnataka Assembly Election 2023 | EC to announce poll schedule today - The Hindu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.976Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "44",
+    "object_repr": "Shortly before Supreme Court hearing, Mohammed Faizal’s membership to Lok Sabha restored - The Indian Express",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.985Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "43",
+    "object_repr": "India develops mathematical model for estimation of TB burden cases, first country to do so - ANI News",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2023-03-29T06:39:56.994Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "42",
+    "object_repr": "Hyderabad-based IIL get DCGI nod for Measles-Rubella vaccine - The Siasat Daily",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.002Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "41",
+    "object_repr": "Ree Drummond ACV Keto Gummies Review - Shark Tank Weight Loss Gummies Scam Or Trisha Yearwood Keto Gummies Fake & Shocking Results? - mid-day.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.011Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "40",
+    "object_repr": "Unusual symptoms of diabetes that can help you identify the condition early - Times of India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.017Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "39",
+    "object_repr": "NASA Astronomy Picture of the Day 28 March 2023: Extremely Rare Green Flash Sunset - HT Tech",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.026Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "38",
+    "object_repr": "No, NASA’s Artemis spacesuits won’t be black - The Indian Express",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.034Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "37",
+    "object_repr": "Five planets aligning in the sky this week - CBS News",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.045Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "36",
+    "object_repr": "Privately-built Japanese moon lander sends beautiful image from lunar orbit - The Indian Express",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.061Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "35",
+    "object_repr": "India too good for Kyrgyz Republic; win Hero Tri-Nation Tournament | Football News - Indiatimes.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.072Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "34",
+    "object_repr": "Recent Match Report - West Indies vs South Africa 3rd T20I 2022/23 - ESPNcricinfo",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.081Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "33",
+    "object_repr": "Argentina vs. Curacao - Football Match Report - March 29, 2023 - ESPN India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.089Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "32",
+    "object_repr": "On Grooming Indian Cricket Team Captain To Follow Rohit Sharma, Sourav Ganguly's Big Hint - NDTV Sports",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.096Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "31",
+    "object_repr": "Pics: At Tania Shroff's Birthday Party - Suhana-Aryan Khan, Agastya Nanda, Shanaya-Khushi Kapoor And Others - NDTV Movies",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.104Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "30",
+    "object_repr": "Why Jr NTR Did Not Attend RRR Co-star Ram Charan's Birthday Bash; Here's What We Know - News18",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.112Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "29",
+    "object_repr": "Priyanka's manager in US was told by Bollywood people 'you're wasting your time' - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.123Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "28",
+    "object_repr": "Parineeti Chopra reacts to wedding rumours with AAP leader Raghav Chadha, 'Hasee Toh Phasee' actress BLUSHES when asked about the news. Watch IT - Indiatimes.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.131Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "27",
+    "object_repr": "Apple rolls out iOS 16.4 with notifications for web apps, voice call isolation and 21 new emoji - GSMArena.com news - GSMArena.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.139Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "26",
+    "object_repr": "Microsoft launches AI tool Security Copilot with OpenAI’s GPT-4 for cybersecurity - BusinessLine",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.147Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "25",
+    "object_repr": "Garena Free Fire MAX Redeem Codes for March 29, 2023: Cool weapon crates and diamond vouchers - HT Tech",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.158Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "24",
+    "object_repr": "Geek Review: Sony Bravia X95K Mini LED TV - Geek Culture",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.166Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "23",
+    "object_repr": "Contagion risks loom over 2 Adani companies: Fitch - Economic Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.176Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "22",
+    "object_repr": "Hindustan Zinc shares trade ex-dividend today on record date; stock falls | Mint - Mint",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.185Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "21",
+    "object_repr": "Big change in UPI payment charges from April 1| Know THIS before making digital payments via Google Pay, PayTM - Times Now",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.195Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "20",
+    "object_repr": "Adani Group shares trade mixed; 3 counters hit 5% lower circuit - The Economic Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.202Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "19",
+    "object_repr": "Laid-off Indian techies in US can continue to stay beyond the H1-B time limit. Here's how - Moneycontrol",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.213Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "18",
+    "object_repr": "\"Dangerous\": Biden Expresses Concern Over Putin's Plan To Deploy Nukes In Belarus - NDTV",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.223Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "17",
+    "object_repr": "India to host meeting of security advisers from Shanghai Cooperation Organisation countries - The Hindu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.234Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "16",
+    "object_repr": "Israel's Netanyahu Hits Back At Biden After His Remark On Judicial Reforms - NDTV",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.248Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "15",
+    "object_repr": "India Clocks 2,151 Covid Cases In Last 24 Hours, Highest In 5 Months - NDTV",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.260Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "14",
+    "object_repr": "Rahul Gandhi's Disqualification Proves the Law Has Fallen Into the Wrong Hands - The Wire",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.270Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "13",
+    "object_repr": "Bihar Board 10th Result 2023 Live: BSEB Matric result today? See updates - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.284Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "12",
+    "object_repr": "Video: Congress' DK Shivakumar Showers Rs 500 Notes In Karnataka Roadshow - NDTV",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.296Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "11",
+    "object_repr": "Body cam video shows how US cops killed school attacker - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.308Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "10",
+    "object_repr": "Congress mulls over no-confidence notice against Om Birla, reluctance of some Opposition parties gives it pause - The Indian Express",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.316Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "'Will attend…': Sanjay Raut after warning to Rahul Gandhi on Savarkar quip - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.326Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "8",
+    "object_repr": "Cops Search Punjab Village After Abandoned Car Sparks Amritpal Singh Buzz - NDTV",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.339Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "7",
+    "object_repr": "Karnataka Assembly Election 2023 | EC to announce poll schedule today - The Hindu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.348Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "6",
+    "object_repr": "Shortly before Supreme Court hearing, Mohammed Faizal’s membership to Lok Sabha restored - The Indian Express",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2023-03-29T06:39:57.358Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Karnataka Election Dates To Be Announced By Poll Body At 11.30 am - NDTV",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.287Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1714",
+    "object_repr": "Pollution, sedentary lifestyle key risk factors for cardiovascular diseases in adults above 45 - United News of India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.303Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1713",
+    "object_repr": "World Bipolar Day: How to tell if someone is bipolar - Times of India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.311Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1712",
+    "object_repr": "Diabetes can lead to these health issues: Key points on diabetes complications - Indiatimes.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.316Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1711",
+    "object_repr": "Scientists discover ultramassive black hole that can fit 30 billion suns - WION",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.323Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1710",
+    "object_repr": "Powerful flare from Sun hits Earth, causes radio blackout over parts of Asia, Australia - India Today",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.329Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1709",
+    "object_repr": "NASA Astronomy Picture of the Day 30 March 2023: Globular star cluster and Dark Doodad Nebula - HT Tech",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.334Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1708",
+    "object_repr": "Boeing’s debut crewed Starliner launch delayed to July 21: NASA - The Indian Express",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.342Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1707",
+    "object_repr": "Glenn Maxwell uncertain for RCB opener, Josh Hazlewood to miss initial phase of IPL - Indiatimes.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.347Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1706",
+    "object_repr": "'They will be lifting…': Vaughan's massive IPL prediction burns the internet - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.352Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1705",
+    "object_repr": "'Kohli's dream will...': Manjrekar's astonishing claim about RCB great - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.358Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1704",
+    "object_repr": "ICC ODI World Cup 2023: Mumbai, Ahmedabad To Hosts Semis And Final, Delhi Or Chennai To Witness India Vs Pa... - Zee News",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.363Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1703",
+    "object_repr": "Adipurush: New poster unveiled on Ram Navami; Prabhas, Kriti Sanon and Sunny Singh make an appearance - Indiatimes.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.369Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1702",
+    "object_repr": "Samantha Ruth Prabhu On Divorce From Naga Chaitanya: \"Gave Marriage 100 Percent, Did Not Work Out\" - NDTV Movies",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.377Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1701",
+    "object_repr": "Maidaan teaser: Ajay Devgn brings golden era of Indian football to big screen - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.383Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1700",
+    "object_repr": "Bholaa Box Office Day 1 Prediction: Ajay Devgn's Film to Get Lower Opening Than Drishyam 2 - India.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.388Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1699",
+    "object_repr": "Apple iPhone 11 available at just Rs 9,999 in Flipkart Navratri sale, last day to get the deal - DNA India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.392Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1698",
+    "object_repr": "OnePlus Nord CE 3 Lite to sport 108MP camera - Times of India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.396Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1697",
+    "object_repr": "Microsoft introduces AI-powered cybersecurity assistant - HT Tech",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.400Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1696",
+    "object_repr": "Redmi Note 12, Redmi 12C launching in India today: Expected price, specifications and more - India Today",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.404Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1695",
+    "object_repr": "Vedanta dividend yield at 28% in one year. Beats PPF, EPF, mutual funds, bank FD return | Mint - Mint",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.408Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1694",
+    "object_repr": "Who is to blame for the Rs 50,000 crore rout in Adani group shares? - The Morning Context",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.412Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1693",
+    "object_repr": "Honda Activa Electric Scooter Teased Ahead Of Launch Next Year - RushLane",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.417Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1692",
+    "object_repr": "Unacademy to slash 12% of workforce in another round of layoffs - Economic Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.422Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1691",
+    "object_repr": "Blaze on Philippine passenger ferry kills at least 10 - Al Jazeera English",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.426Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1690",
+    "object_repr": "UAE ruler names son Abu Dhabi crown prince, brothers to top roles - Times of India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.430Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1689",
+    "object_repr": "Don't use Taiwan president's US visit as 'pretext': White House to China - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.435Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1688",
+    "object_repr": "H-1B visa-holders' spouses can work in US, says judge | Mint - Mint",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.441Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1687",
+    "object_repr": "Maha: Hindu-Muslim clash in Aurangabad; police vehicle torched - The Siasat Daily",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.445Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1686",
+    "object_repr": "Over 300 lawyers call out Kiren Rijiju for ‘anti-India gang’ remarks - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.449Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1685",
+    "object_repr": "Rahul Gandhi Defamation Case Live: India won't tolerate 'foreign influence' anymore, says Kiren Rijiju, thanks Congress leader - Deccan Herald",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.454Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1684",
+    "object_repr": "Explained: Why Rajasthan doctors are protesting against ‘Right to Health’ Bill? | Mint - Mint",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.459Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1683",
+    "object_repr": "\"Look Forward To...\": Lalit Modi Threatens To Sue Rahul Gandhi In UK - NDTV",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.462Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1682",
+    "object_repr": "Supreme Court calls Centre ‘impotent’ for failing to curb hate speech - Telegraph India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.466Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1681",
+    "object_repr": "'Dahi' or 'tayyir'? 'Hindi imposition' battle over curd, MK Stalin slams centre - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.471Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1680",
+    "object_repr": "Germany reacts to Rahul Gandhi’s ouster as MP, says, he is in a position to appeal the verdict - The Hindu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.475Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1679",
+    "object_repr": "Indore temple stepwell collapse: 18 rescued, seven still trapped - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.479Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1678",
+    "object_repr": "Covid-19 infections jump 40% in 24 hours, Delhi govt to hold emergency meet - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.483Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1677",
+    "object_repr": "What is GERD (acid reflux)? What happens if reflux is left untreated - Forbes India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.488Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1676",
+    "object_repr": "Pollution, sedentary lifestyle key risk factors for cardiovascular diseases in adults above 45 - United News of India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.493Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1675",
+    "object_repr": "World Bipolar Day: How to tell if someone is bipolar - Times of India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 139,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.497Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1674",
+    "object_repr": "Diabetes can lead to these health issues: Key points on diabetes complications - Indiatimes.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 140,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.501Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1673",
+    "object_repr": "Scientists discover ultramassive black hole that can fit 30 billion suns - WION",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 141,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.506Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1672",
+    "object_repr": "Powerful flare from Sun hits Earth, causes radio blackout over parts of Asia, Australia - India Today",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 142,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.509Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1671",
+    "object_repr": "NASA Astronomy Picture of the Day 30 March 2023: Globular star cluster and Dark Doodad Nebula - HT Tech",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 143,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.513Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1670",
+    "object_repr": "Boeing’s debut crewed Starliner launch delayed to July 21: NASA - The Indian Express",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 144,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.520Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1669",
+    "object_repr": "Glenn Maxwell uncertain for RCB opener, Josh Hazlewood to miss initial phase of IPL - Indiatimes.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 145,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.525Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1668",
+    "object_repr": "'They will be lifting…': Vaughan's massive IPL prediction burns the internet - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 146,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.529Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1667",
+    "object_repr": "'Kohli's dream will...': Manjrekar's astonishing claim about RCB great - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 147,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.533Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1666",
+    "object_repr": "ICC ODI World Cup 2023: Mumbai, Ahmedabad To Hosts Semis And Final, Delhi Or Chennai To Witness India Vs Pa... - Zee News",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 148,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.537Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1665",
+    "object_repr": "Adipurush: New poster unveiled on Ram Navami; Prabhas, Kriti Sanon and Sunny Singh make an appearance - Indiatimes.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 149,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.541Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1664",
+    "object_repr": "Samantha Ruth Prabhu On Divorce From Naga Chaitanya: \"Gave Marriage 100 Percent, Did Not Work Out\" - NDTV Movies",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 150,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.546Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1663",
+    "object_repr": "Maidaan teaser: Ajay Devgn brings golden era of Indian football to big screen - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 151,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.549Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1662",
+    "object_repr": "Bholaa Box Office Day 1 Prediction: Ajay Devgn's Film to Get Lower Opening Than Drishyam 2 - India.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 152,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.555Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1661",
+    "object_repr": "Apple iPhone 11 available at just Rs 9,999 in Flipkart Navratri sale, last day to get the deal - DNA India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 153,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.559Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1660",
+    "object_repr": "OnePlus Nord CE 3 Lite to sport 108MP camera - Times of India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 154,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.563Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1659",
+    "object_repr": "Microsoft introduces AI-powered cybersecurity assistant - HT Tech",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 155,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.567Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1658",
+    "object_repr": "Redmi Note 12, Redmi 12C launching in India today: Expected price, specifications and more - India Today",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 156,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.572Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1657",
+    "object_repr": "Vedanta dividend yield at 28% in one year. Beats PPF, EPF, mutual funds, bank FD return | Mint - Mint",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 157,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.575Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1656",
+    "object_repr": "Who is to blame for the Rs 50,000 crore rout in Adani group shares? - The Morning Context",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 158,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.580Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1655",
+    "object_repr": "Honda Activa Electric Scooter Teased Ahead Of Launch Next Year - RushLane",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 159,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.584Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1654",
+    "object_repr": "Unacademy to slash 12% of workforce in another round of layoffs - Economic Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 160,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.588Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1653",
+    "object_repr": "Blaze on Philippine passenger ferry kills at least 10 - Al Jazeera English",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 161,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.593Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1652",
+    "object_repr": "UAE ruler names son Abu Dhabi crown prince, brothers to top roles - Times of India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 162,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.596Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1651",
+    "object_repr": "Don't use Taiwan president's US visit as 'pretext': White House to China - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 163,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.601Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1650",
+    "object_repr": "H-1B visa-holders' spouses can work in US, says judge | Mint - Mint",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 164,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.607Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1649",
+    "object_repr": "Maha: Hindu-Muslim clash in Aurangabad; police vehicle torched - The Siasat Daily",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 165,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.613Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1648",
+    "object_repr": "Over 300 lawyers call out Kiren Rijiju for ‘anti-India gang’ remarks - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 166,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.621Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1647",
+    "object_repr": "Rahul Gandhi Defamation Case Live: India won't tolerate 'foreign influence' anymore, says Kiren Rijiju, thanks Congress leader - Deccan Herald",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 167,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.626Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1646",
+    "object_repr": "Explained: Why Rajasthan doctors are protesting against ‘Right to Health’ Bill? | Mint - Mint",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 168,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.630Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1645",
+    "object_repr": "\"Look Forward To...\": Lalit Modi Threatens To Sue Rahul Gandhi In UK - NDTV",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 169,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.634Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1644",
+    "object_repr": "Supreme Court calls Centre ‘impotent’ for failing to curb hate speech - Telegraph India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 170,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.637Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1643",
+    "object_repr": "'Dahi' or 'tayyir'? 'Hindi imposition' battle over curd, MK Stalin slams centre - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 171,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.642Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1642",
+    "object_repr": "Germany reacts to Rahul Gandhi’s ouster as MP, says, he is in a position to appeal the verdict - The Hindu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 172,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.649Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1641",
+    "object_repr": "Indore temple stepwell collapse: 18 rescued, seven still trapped - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 173,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.654Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1640",
+    "object_repr": "Covid-19 infections jump 40% in 24 hours, Delhi govt to hold emergency meet - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 174,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.657Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1639",
+    "object_repr": "What is GERD (acid reflux)? What happens if reflux is left untreated - Forbes India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 175,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.663Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1638",
+    "object_repr": "Pollution, sedentary lifestyle key risk factors for cardiovascular diseases in adults above 45 - United News of India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 176,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.666Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1637",
+    "object_repr": "World Bipolar Day: How to tell if someone is bipolar - Times of India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 177,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.671Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1636",
+    "object_repr": "Diabetes can lead to these health issues: Key points on diabetes complications - Indiatimes.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 178,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.677Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1635",
+    "object_repr": "Scientists discover ultramassive black hole that can fit 30 billion suns - WION",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 179,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.681Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1634",
+    "object_repr": "Powerful flare from Sun hits Earth, causes radio blackout over parts of Asia, Australia - India Today",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 180,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.685Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1633",
+    "object_repr": "NASA Astronomy Picture of the Day 30 March 2023: Globular star cluster and Dark Doodad Nebula - HT Tech",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 181,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.691Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1632",
+    "object_repr": "Boeing’s debut crewed Starliner launch delayed to July 21: NASA - The Indian Express",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 182,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.695Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1631",
+    "object_repr": "Glenn Maxwell uncertain for RCB opener, Josh Hazlewood to miss initial phase of IPL - Indiatimes.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 183,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.702Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1630",
+    "object_repr": "'They will be lifting…': Vaughan's massive IPL prediction burns the internet - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 184,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.707Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1629",
+    "object_repr": "'Kohli's dream will...': Manjrekar's astonishing claim about RCB great - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 185,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.711Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1628",
+    "object_repr": "ICC ODI World Cup 2023: Mumbai, Ahmedabad To Hosts Semis And Final, Delhi Or Chennai To Witness India Vs Pa... - Zee News",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 186,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.715Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1627",
+    "object_repr": "Adipurush: New poster unveiled on Ram Navami; Prabhas, Kriti Sanon and Sunny Singh make an appearance - Indiatimes.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 187,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.721Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1626",
+    "object_repr": "Samantha Ruth Prabhu On Divorce From Naga Chaitanya: \"Gave Marriage 100 Percent, Did Not Work Out\" - NDTV Movies",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 188,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.725Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1625",
+    "object_repr": "Maidaan teaser: Ajay Devgn brings golden era of Indian football to big screen - Hindustan Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 189,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.729Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1624",
+    "object_repr": "Bholaa Box Office Day 1 Prediction: Ajay Devgn's Film to Get Lower Opening Than Drishyam 2 - India.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 190,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.733Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1623",
+    "object_repr": "Apple iPhone 11 available at just Rs 9,999 in Flipkart Navratri sale, last day to get the deal - DNA India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 191,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.740Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1622",
+    "object_repr": "OnePlus Nord CE 3 Lite to sport 108MP camera - Times of India",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 192,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.745Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1621",
+    "object_repr": "Microsoft introduces AI-powered cybersecurity assistant - HT Tech",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 193,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.751Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1620",
+    "object_repr": "Redmi Note 12, Redmi 12C launching in India today: Expected price, specifications and more - India Today",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 194,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.759Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1619",
+    "object_repr": "Vedanta dividend yield at 28% in one year. Beats PPF, EPF, mutual funds, bank FD return | Mint - Mint",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 195,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.765Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1618",
+    "object_repr": "Who is to blame for the Rs 50,000 crore rout in Adani group shares? - The Morning Context",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 196,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.770Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1617",
+    "object_repr": "Honda Activa Electric Scooter Teased Ahead Of Launch Next Year - RushLane",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 197,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.778Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1616",
+    "object_repr": "Unacademy to slash 12% of workforce in another round of layoffs - Economic Times",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 198,
+  "fields": {
+    "action_time": "2023-03-30T09:03:35.784Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1615",
+    "object_repr": "Blaze on Philippine passenger ferry kills at least 10 - Al Jazeera English",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add news",
+    "content_type": 12,
+    "codename": "add_news"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change news",
+    "content_type": 12,
+    "codename": "change_news"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete news",
+    "content_type": 12,
+    "codename": "delete_news"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view news",
+    "content_type": 12,
+    "codename": "view_news"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$rPV4qBlt9GmgNUJIiQLelC$Oy/l9YeZ01ymsFoicpcijQpzkkWUZAwWOLtBT4e8nVE=",
+    "last_login": "2023-03-16T11:06:34.164Z",
+    "is_superuser": true,
+    "username": "Akash",
+    "first_name": "",
+    "last_name": "",
+    "email": "akash@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-03-16T09:47:08.440Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "blog",
+    "model": "news"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ofem3yuyjmmm8xgkqvqwswrd6aumcthp",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAQOoBL9z0DGYZBqoYmpV0Z765NutDtf-_9l4i4rTVunZc4ZXERWpx-t4T04LaDfMd2myXNbV2mJHdFHrTLcc78vB7u30HFXr81e3MmosLOwoCgsgP24DwrIJuKtRDMEJLRNpBGDDZBVgVMZh2UhyLeH-WjN70:1pclRK:FutfkDAKDig0r5YqtAdMQqs5QX8smcj8jRejHxcvarA",
+    "expire_date": "2023-03-30T11:06:34.173Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Python",
+    "slug": "full-cource",
+    "author": 1,
+    "body": "We are telling the Django administration site that the model is registered in the site using a custom \r\nclass that inherits from ModelAdmin. In this class, we can include information about how to display \r\nthe model on the site and how to interact with it.",
+    "publish": "2023-03-16T09:57:25Z",
+    "created": "2023-03-16T09:58:29.609Z",
+    "updated": "2023-03-27T06:22:30.623Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "Chat GPT",
+    "slug": "ielts-full-course",
+    "author": 1,
+    "body": "Since the emergence of OpenAI's ChatGPT - an artificial intelligence-powered chatbot, people are worried that the powerful technology may eliminate several jobs in the future. Recently, Sam Altman, the CEO of the company that created ChatGPT, also revealed that he was \"a little bit scared\" of his company's invention.\r\nNow, a new study by OpenAI, Open Research, and the University of Pennsylvania has revealed the jobs that are most at risk of being lost due to the technological revolution triggered by ChatGPT, Metro reported. The study is titled \"GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models'' which basically identifies the potential exposure that each job has to large language models.\r\n\r\nAccording to the study, higher-paying jobs are more likely to be affected compared to lower-paying ones. Jobs that don't require formal educational credentials are safe from ChatGPT while professions that require proficiency in programming and writing are more susceptible to being automated. Jobs that are heavily reliant on scientific and critical thinking skills are less prone to automation.",
+    "publish": "2023-03-16T10:18:17Z",
+    "created": "2023-03-16T10:18:32.835Z",
+    "updated": "2023-03-27T06:21:40.614Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "New title",
+    "slug": "another-post",
+    "author": 1,
+    "body": "Publish field. Note that the publish field is an instance of DateTimeField, but the check for unique \r\nvalues will be done only against the date (not the time). Django will prevent from saving a new post \r\nwith the same slug as an existing post for a given publication date. We have now ensured that slugs \r\nare unique for the publication date,",
+    "publish": "2023-03-20T06:07:53Z",
+    "created": "2023-03-16T10:35:48.468Z",
+    "updated": "2023-03-27T11:33:20.888Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "One more post",
+    "slug": "one-more-post",
+    "author": 1,
+    "body": "Post body",
+    "publish": "2023-03-16T10:41:22Z",
+    "created": "2023-03-16T10:41:22.550Z",
+    "updated": "2023-03-17T11:29:41.300Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Markdown post",
+    "slug": "markdown-post",
+    "author": 1,
+    "body": "This is a post formatted with markdown\r\n--------------------------------------\r\n*This is emphasized* and **this is more emphasized**.\r\nHere is a list:\r\n* One\r\n* Two\r\n* Three\r\nAnd a [link to the Django website](https://www.djangoproject.com/).",
+    "publish": "2023-03-27T09:43:46Z",
+    "created": "2023-03-27T09:44:02.024Z",
+    "updated": "2023-03-27T09:45:30.448Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 1,
+    "name": "Harsh Kamani",
+    "email": "harshkamani25@gmail.com",
+    "body": "Its a updated version!",
+    "created": "2023-03-21T08:27:50.601Z",
+    "updated": "2023-03-21T08:27:50.601Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 4,
+    "name": "Harsh Kamani",
+    "email": "harshkamani@gmail.com",
+    "body": "hello harsh",
+    "created": "2023-03-21T09:57:31.669Z",
+    "updated": "2023-03-21T09:57:31.669Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 4,
+    "name": "Yash",
+    "email": "harshkamani25@gmail.com",
+    "body": "nice writing",
+    "created": "2023-03-21T10:39:52.891Z",
+    "updated": "2023-03-21T10:39:52.891Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "post": 2,
+    "name": "Harsh Kamani",
+    "email": "harshkamani25@gmail.com",
+    "body": "This course is made for you bitch!",
+    "created": "2023-03-21T10:51:06.793Z",
+    "updated": "2023-03-21T10:51:06.793Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 5,
+  "fields": {
+    "post": 2,
+    "name": "Hars",
+    "email": "harshkamani25@gmail.com",
+    "body": "jbjbjb",
+    "created": "2023-03-21T11:14:55.396Z",
+    "updated": "2023-03-21T11:14:55.396Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 6,
+  "fields": {
+    "post": 2,
+    "name": "Nirav",
+    "email": "harshkamani25@gmail.com",
+    "body": "heelloooo",
+    "created": "2023-03-21T11:50:27.613Z",
+    "updated": "2023-03-21T11:50:27.613Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 7,
+  "fields": {
+    "post": 1,
+    "name": "Bhumit",
+    "email": "harshkamani@gmail.com",
+    "body": "Nice",
+    "created": "2023-03-27T06:24:38.097Z",
+    "updated": "2023-03-27T06:24:38.097Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "AI",
+    "slug": "ai"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "jass",
+    "slug": "jass"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "bew",
+    "slug": "bew"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "http://127.0.0.1:8000/blog",
+    "name": "Blog"
+  }
+}
+]

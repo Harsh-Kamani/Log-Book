@@ -1,0 +1,14 @@
+{% extends "blog/base.html"%}
+
+{% block title%}Share a news{% endblock%}
+
+{% block content %}
+{% load crispy_forms_tags %}
+
+    <h1>Share "" by e-mail </h1>
+    <form method ="post">
+        {{ email_form|crispy}}
+        {% csrf_token %}
+        <input type="submit" value="send e-mail">
+    </form>
+{% endblock%}

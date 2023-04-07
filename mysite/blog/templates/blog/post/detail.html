@@ -1,0 +1,74 @@
+{% extends "blog/base.html" %}
+{% load blog_tags %}
+
+{% block title %}{{post.title}}{%endblock%}
+
+{%block content%}
+  <h1>{{post.title}} </h1>
+  <p class="date">
+    Published {{post.title}} by {{post.author}}
+  </p>
+  {{post.body|markdown}}
+  <p>
+    <a href ="{% url "blog:post_share" post.id %}">
+      Share this post
+    </a>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+      Share this post
+    </button>
+  </p>
+  <h2>Similar posts</h2>
+  {% for post in similar_posts%}
+    <p>
+      <a href="{{post.get_absolute_url}}">{{post.title}}</a>
+    </p>
+  {%empty%}
+    There are no similar postas yet.
+  {%endfor%}
+  {%with comments.count as total_comments%}
+    <h2>
+      {{total_comments}} comment{{total_comments|pluralize}}
+    </h2>
+  {% endwith %}
+  {%for comment in comments%}
+    <div class = "comment">
+      <p class="info">
+        Comment{{forloop.counter}} by {{comment.name}}
+        {{comment.created}}
+      </p>
+      {{ comment.body|linebreaks }}
+    </div>
+  {%empty%}
+    <p>There are no comments.</p>
+  {%endfor%}
+  {% include "blog/post/includes/comment_form.html" %}
+
+{%endblock%}
+
+{%block modal%}
+<!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">{{post.title}}</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="{% url "blog:post_share" post.id %}" method="post">
+            {{ formEmail.as_p}}
+            {% csrf_token %}
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary" >Send E-mail</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+{%endblock%}
+

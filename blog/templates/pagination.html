@@ -1,0 +1,11 @@
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        {% if page.has_previous %}
+        <li class="page-item"><a class="page-link" href="?page={{ page.previous_page_number }}">&laquo;</a></li>
+        {% endif %}
+        <li class="page-item mx-2"><a class="page-link bg-white" style="border-radius: 5px;width: 100%;" href="#">Page {{ page.number }} of {{ page.paginator.num_pages }}</a></li>
+        {% if page.has_next %}
+        <li class="page-item"><a class="page-link" href="?page={{ page.next_page_number }}">&raquo;</a></li>
+        {% endif %}
+    </ul>
+</nav>

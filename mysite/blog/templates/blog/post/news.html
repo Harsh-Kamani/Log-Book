@@ -1,0 +1,140 @@
+
+{% extends "blog/base.html" %}
+
+{% block title %}Latest News{% endblock %}
+{% block content %}
+ {% comment %} <pre>  {% debug %} </pre> {% endcomment %}
+  <h1><p>Latest News</p></h1>
+  {%if sent%}
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+      <strong>Your e-mail is successfully sent!</strong>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+  {%endif%}
+
+
+<!-- Nav pills -->
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="pill" href="#home">General</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="pill" href="#menu1">Finanace</a>
+    </li>
+
+  </ul>
+
+<!-- Tab panes -->
+  <div class="tab-content">
+    <div class="tab-pane container active" id="home">
+      <div class="container">
+        <div class="row">
+          {% for entry in entries%}
+            <div class="col-md-12">
+              <div class="news-container-{{forloop.counter}}">
+
+                <h3 class="news-title-{{forloop.counter}}">{{entry.title}}</h3>
+
+                {% for link in entry.links%}
+                  {%if link.type == 'image/jpeg'%}
+                    <img class="w-100" src="{{link.href}}">
+                    <br>
+                  {%endif%}
+                {%endfor%}
+
+                <div class="mt-2">
+                  <a href="{{entry.link}}" class="btn btn-primary mr-1 news-link-{{forloop.counter}}">Read More</a>
+                  <button type="button" class="share-form-btn btn btn-primary" onclick="fillFormData('{{forloop.counter}}')"  data-toggle="modal" data-target="#exampleModal">
+                    Share this post
+                  </button>
+                </div>
+              </div>
+              <hr>
+            </div>
+          {%endfor%}
+        </div>
+      </div>
+    </div>
+
+
+    <div class="tab-pane container fade" id="menu1">
+      <div class="container">
+        <div class="row">
+          {% for bentry in businessentries%}
+            <div class="col-md-12">
+              <div class="businessnews-container-{{forloop.counter}}">
+                <h3 class="business-news-title-{{forloop.counter}}">{{bentry.title}}</h3>
+                {% for link in bentry.links%}
+                  {%if link.type == 'image/jpeg'%}
+                    <img class="w-100" src="{{link.href}}">
+                    <br>
+                  {%endif%}
+                {%endfor%}
+
+                <div class="mt-2">
+                  <a href="{{bentry.link}}" class="btn btn-primary mr-1 business-news-link-{{forloop.counter}}">Read More</a>
+                  <button type="button" class="share-form-btn btn btn-primary" onclick="fillBusinessData('{{forloop.counter}}')"  data-toggle="modal" data-target="#exampleModal">
+                    Share this post
+                  </button>
+                </div>
+              </div>
+            </div>
+          {%endfor%}
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+{% endblock %}
+
+
+
+
+{%block modal%}
+<!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Share News</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="" method="post">
+            {{ news_send_form.as_p}}
+            {% csrf_token %}
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary" >Send E-mail</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+{%endblock%}
+
+{%block js%}
+  <script type="text/javascript">
+    function fillFormData(index) {
+      var text = $('.news-title-'+index).text();
+      var link = $('.news-link-'+index).attr('href');
+      $('#id_title').val(text);
+      $('#id_link').val(link);
+    }
+  </script>
+
+  <script type="text/javascript">
+    function fillBusinessData(index){
+      var text =  $('.business-news-title-'+index).text();
+      var link = $('.business-news-link-'+index).attr('href');
+      $('#id_title').val(text);
+      $('#id_link').val(link);
+    }  S
+  </script>
+{%endblock%}
